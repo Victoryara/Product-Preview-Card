@@ -1,0 +1,132 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.name{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+}
+
+span{
+    font-weight: normal;
+}
+
+.container{
+    display: grid;
+    width: 50rem;
+    height: 40rem;
+    margin: 0 auto;
+    place-items: center;
+}
+
+main{
+    display: flex;
+
+}
+
+.description{
+    background: hsl(0, 0%, 100%);
+    border: 1px gray solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: left;
+}
+
+.productimg{
+    border: 1px gray solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.descriptionItem, .newPrice, .previousPrice, .addToCart, button{
+    margin-left: 30px;
+}
+
+.price{
+    display: flex;
+    margin: 0;
+}
+
+.newPrice{
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+}
+
+.previousPrice{
+    margin-top: 40px;
+    text-decoration: line-through;
+}
+
+button{
+    width: 80%;
+    padding: 12px 12px;
+    background:  hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+.button{
+    margin-left: 10px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+/*for smaller screen */
+@media screen and (max-width: 500px) {
+    body {
+      font-size: 12px;
+    }
+    
+    .name {
+      font-size: 24px;
+    }
+    
+    .container {
+      width: 50%;
+      height: auto;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+    }
+    
+    main {
+      flex-direction: column;
+    }
+    
+    .productimg {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    
+    .description {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      margin-top: 20px;
+    }
+    
+    .descriptionItem, .newPrice, .previousPrice, .addToCart, button {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+    
+    button {
+      width: 100%;
+    }
+  }
+  
