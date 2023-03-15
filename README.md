@@ -1,16 +1,18 @@
 
 ## Table of contents
-
-- [Overview](#overview)
+ -[Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
+-[Conclusion](#conclusion)
 
-## Overview
 
+### Overview
+
+The Product Component View page is a web page that displays detailed information about a product and its components. It includes a product image, a description of the product, a list of its components, and the option to add the product to a shopping cart.
 
 ### Screenshot
 
