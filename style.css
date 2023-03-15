@@ -108,6 +108,7 @@ button:hover{
     
     main {
       flex-direction: column;
+      margin-right: 5rem;
     }
     
     .productimg {
