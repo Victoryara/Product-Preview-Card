@@ -42,7 +42,7 @@ main{
 }
 
 .productimg{
-  max-width: 300px;
+    max-width: 300px;
     border: 1px gray solid;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -58,6 +58,7 @@ main{
 }
 
 .newPrice{
+    font-family: 'Fraunces', serif;
     font-size: 30px;
     font-weight: bold;
     color: hsl(158, 36%, 37%);
@@ -69,6 +70,7 @@ main{
 }
 
 button{
+    cursor: pointer;
     width: 80%;
     padding: 12px 12px;
     background:  hsl(158, 36%, 37%);
@@ -80,10 +82,11 @@ button{
 
 .button{
     margin-left: 10px;
+    margin-bottom: 1rem;
 }
 
 button:hover{
-    background-color: aqua;
+    background-color: greenyellow;
 }
 
 /*for smaller screen */
